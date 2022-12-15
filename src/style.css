@@ -4,13 +4,20 @@
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans';
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 body {
     background: hsl(185, 75%, 39%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 100vw;
     height: 100vh;
@@ -77,8 +84,14 @@ main {
 }
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 125px;
@@ -121,4 +134,3 @@ main {
         left: 120px;
     }
 }
-
